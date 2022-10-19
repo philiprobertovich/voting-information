@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="styles.css" rel="stylesheets" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Voting Information</title>
+</head>
+<body>
+  <form>
+    <label for="age">Please enter your age:</label>
+    <input id="age" type="number">
+    <button type="submit">Submit!</button>
+  </form>
+
+  <div id="voteInfo" class="hidden">
+    <h1>Here are some voting resourses:</h1>
+    <ul>
+      <li>
+        Here is a <a href="https://www.vote.org/register-to-vote/">link</a> to sign-up and register to vote.
+      </li>
+      <li>
+        Here is a <a href="https://www.vote.org/dropbox-locator/">link</a> to locate your nearest polling station.
+      </li>
+      <li>
+        Here is a <a href="https://ballotpedia.org/Elections_calendar">link</a> to any upcoming elections in your area.
+      </li>
+    </ul>
+  </div>
+
+  <div id="minorInfo" class="hidden">
+    <h2>Sorry, but you are under 18.</h2>
+    <p>Here are some <a href="https://www.vote.org/voter-registration-rules/">resources</a> to learn about the voting process and age requirements.</p>
+  </div>
+</body>
+</html>
